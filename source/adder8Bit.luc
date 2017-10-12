@@ -1,7 +1,7 @@
 module adder8Bit (
     input a[8], // Input A 8 Bits
     input b[8], // Inout B 8 Bits
-    input alufn[0],  // Input ALUFN0, 0 for Addtion and 1 for Subtraction
+    input alufn,  // Input ALUFN0, 0 for Addtion and 1 for Subtraction
     output z, // Z is true if all sum, s=0
     output v, // V is true if addition operation overflows
     output n, // N is true if sum, s is negative

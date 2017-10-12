@@ -1,4 +1,4 @@
-module mojo_top (
+module alu8Bit (
     input clk,              // 50MHz clock
     input rst_n,            // reset button (active low)
     output led [8],         // 8 user controllable LEDs
